@@ -39,8 +39,7 @@ public class Fruit extends PacManActor
         ArrayList<Integer> validDirections = new ArrayList<>();
         for ( int i = 0; i < 4; i++ )
             if ( i != (dir + 2)%4 ) {
-                PacManSquare sqn = getNeighborSquare( i );
-                if ( sqn != null && !sqn.isWall() )
+                if ( null != getNeighborSquare( i ) && !getNeighborSquare( i ).isWall() )
                     validDirections.add( i );
             }
         
@@ -48,7 +47,7 @@ public class Fruit extends PacManActor
         switch(validDirections.size()) {
             case 0: bestDir = (dir+2)%4; break;
             case 1: bestDir = validDirections.get(0); break;
-            default: bestDir = validDirections.get((int)Math.floor(Math.random() * validDirections.size())); break;
+            default: bestDir = validDirections.get((int)(Math.random() * validDirections.size())); break;
         }
         
         setDirection( bestDir );
