@@ -3,15 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmanactors/PacManActor.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmanactors/PacMan.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmanactors/PacManGhost.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmangame/PacManModel.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmangame/PacManView.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmangame/PacManSquare.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmanactors/Blinky.java</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/PacManBoard.txt</file>
-            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/PacManGame/src/pacmanactors/Clyde.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/PacManActor.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/PacManGhost.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/Jinky.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/PacMan.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmangame/PacManSquare.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/PacManBoard.txt</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/Hinky.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/Fruit.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/Strawberry.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmangame/PacManModel.java</file>
+            <file>file:/C:/Users/kasra/Documents/GitHub/AP%20CS/Projects/PacManGame/src/pacmanactors/Apple.java</file>
         </group>
     </open-files>
 </project-private>

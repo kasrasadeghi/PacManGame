@@ -154,6 +154,7 @@ public abstract class PacManGhost extends PacManActor
         return new Location( frightenedTargetRow, frightenedTargetCol );
     }
     
+    @Override
     protected void reachCenterOfSquare( PacManSquare sq, int dir )
     { 
         Location l = getLocation();
@@ -197,7 +198,7 @@ public abstract class PacManGhost extends PacManActor
         int bestDir = -1;
         int bestDist = Integer.MAX_VALUE;
         
-        if ( validDirections.size() == 0 )
+        if ( validDirections.isEmpty() )
         {
             bestDir = (dir+2)%4;
         }

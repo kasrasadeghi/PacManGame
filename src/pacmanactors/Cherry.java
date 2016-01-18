@@ -15,7 +15,9 @@ import pacmangame.PacManModel;
 
 // Class cherry represents the cherry
 // A cherry is just a normal fruit
-public class Cherry
+public class Cherry extends Fruit
 {
-    
+    public Cherry(Location l, PacManModel m) {
+        super(l, m);
+    }
 }

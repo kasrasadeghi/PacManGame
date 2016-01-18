@@ -290,7 +290,7 @@ public class PacManModel
                     }
                     if ( fruit != null )
                     {
-                        //addActor( "Fruit", fruit );
+                        addActor( "Fruit", fruit );
                     }
                 }
             }
@@ -321,7 +321,6 @@ public class PacManModel
                 }
             }
         }
-        /*
         if ( fruit != null )
         {
             int cr = (int)(Math.floor(fruit.getLocation().getRow()));
@@ -333,7 +332,6 @@ public class PacManModel
                 fruitTimer = 10000;
             }
         }
-        */
     }
     
     

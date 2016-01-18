@@ -18,6 +18,17 @@ import pacmangame.PacManSquare;
 // Class Strawberry represents the Strawberry Fruit
 // Whenever a strawberry reaches the center of a square which doesn't have a pellet
 // in it, it drops a pellet there.
-public class Strawberry 
+public class Strawberry extends Fruit
 {
+    public Strawberry(Location l, PacManModel m) {
+        super(l, m);
+    }
+    
+    @Override
+    protected void reachCenterOfSquare( PacManSquare sq, int dir ) {
+        super.reachCenterOfSquare(sq, dir);
+        
+        if (getSquare().getPellet() == null)
+            getSquare().addPellet(new PacManPellet());
+    }
 }

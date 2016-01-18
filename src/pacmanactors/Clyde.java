@@ -21,12 +21,13 @@ import pacmangame.PacManModel;
 public class Clyde extends PacManGhost
 {
     public Clyde (Location l, PacManModel m ) {
-        super(l, GHOST_SPEED * 1.1, m, "Orange");
+        super(l, GHOST_SPEED, m, "Orange");
     }
 
     @Override
     protected Location getChaseTargetLocation() {
-        
+        if (squaredDistance(getModel().getPacMan().getLocation(), getLocation()) < 64)
+            return getScatterTargetLocation();
         return getModel().getPacMan().getLocation();
     }
 

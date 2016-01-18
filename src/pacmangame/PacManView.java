@@ -239,7 +239,6 @@ public class PacManView extends DefaultControl<PacManModel> implements View<PacM
     
     private void paintFruit( Graphics g, Fruit c, int w, int h )
     {
-        /*
         String fruitName = c.getClass().getSimpleName();
         BufferedImage fimg = getFruitImage( fruitName );
         if ( fimg != null )
@@ -253,7 +252,6 @@ public class PacManView extends DefaultControl<PacManModel> implements View<PacM
                     null 
             );
         }
-        */
     }
     
     private static PacManSquare [][] getBorderSquares( PacManMaze m, int r, int c )

@@ -47,7 +47,7 @@ public class PacMan extends PacManActor
         
         // the PacMan should start out in the given location,
         // with speed PM_SPEED, facing left, with the given model
-        super(l, 15, DIRECTION_LEFT, m);
+        super(l, PM_SPEED, DIRECTION_LEFT, m);
         angle = 0;
         opening = true;
         
@@ -77,6 +77,7 @@ public class PacMan extends PacManActor
     // Otherwise (if the mouth is closing), then the angle should DEcrease by dAdt
     // times the amount of time that has passed.  The minimum angle should be 0.
     // If we have passed that amount, then we should change to opening mode.
+    @Override
     public void update( double dt) {
         super.update(dt);
         if (angle > 90) 
@@ -104,6 +105,7 @@ public class PacMan extends PacManActor
     // If the square contains a pellet, remove it.
     // If the pellet happened to be a power-pellet, notify the model that we ate
     // a power pellet.
+    @Override
     public void reachCenterOfSquare(PacManSquare sq, int dir) {
         super.reachCenterOfSquare(sq, dir);
         if (sq.getPellet() != null) {
